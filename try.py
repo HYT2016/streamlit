@@ -29,8 +29,3 @@ if st.checkbox('顯示地圖圖表'):
         np.random.randn(100, 2) / [50, 50] + [22.7, 120.3],
         columns=['lat', 'lon'])
     st.map(map_data)
-
-    option = st.selectbox(
-    '你喜歡哪種動物？',
-    ['狗', '貓', '鸚鵡', '天竺鼠'])
-'你的答案：', option
